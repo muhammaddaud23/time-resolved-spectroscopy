@@ -5,4 +5,8 @@
 5. buka file monitor dari jupyter notebook
 6. tentukan timing dari background pada file monitor
 7. Tulis timing tersebut pada baris yang sesuai di dalam file create_timing.py
-
+8. python3 create_timing.py
+9. bash extract-spectrum.sh
+10. Buat file column-deadtime
+11. bash extract-standard1.sh
+12. python3 deadtime_correction.py
