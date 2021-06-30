@@ -4,4 +4,5 @@
 4. bash create-monitor.sh
 5. buka file monitor dari jupyter notebook
 6. tentukan timing dari background pada file monitor
+7. Tulis timing tersebut pada baris yang sesuai di dalam file create_timing.py
 
