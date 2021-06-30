@@ -48,7 +48,7 @@ for t1,t2 in zip(t1s,t2s):
 	list_timetrans_burst.write(f'timetrans-burst-{i}\n')
 	i = i+1
 timetrans_preburst = open('timetrans-preburst','w')
-timetrans_preburst.write('250 390') #Write background timing here
+timetrans_preburst.write('245157264.87843037 245157280.87843037') #Write background timing here
 timetrans_preburst.close()
 list_timetrans_preburst.write('timetrans-preburst')
 
