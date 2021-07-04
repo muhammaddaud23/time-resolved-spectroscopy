@@ -13,7 +13,7 @@ with open('list_filter') as file1:
 		file3 = pd.read_csv('timetrans-burst-1', delim_whitespace=True)
 		for column in file3.columns:
 			timetrans_collect.append(column)
-		ti = float(timetrans_collect[0]) - 60
+		ti = float(timetrans_collect[0]) - 70
 		tf = float(timetrans_collect[1]) + 30
 		criteria = (subdata['Time'] >= ti) & (subdata['Time'] <= tf)
 		subsubdata = subdata[criteria]
@@ -23,6 +23,7 @@ with open('list_filter') as file1:
 if len(set(subsubdata['Num_PCU_on']))==1:
 	for val in set(subsubdata['Num_PCU_on']):
 		total_pcu = val
+		print(total_pcu)
 	print("Safe")
 else:
 	print("***WARNING: NEED MORE ADVANCE TREATMENT FOR DEADTIME CORRECTION")
