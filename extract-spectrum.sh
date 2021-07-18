@@ -1,3 +1,5 @@
+#! /bin/bash
+##This looping create burst spectra as many as we want##
 while read line1; do
 	while read line2; do
 		echo "From file: $line1"
@@ -10,7 +12,7 @@ while read line1; do
 done<"list_event"
 
 echo "Source extraction done"
-
+##This looping create only one background spectrum##
 while IFS= read -r -u 4 line1; do
 	echo "From file: $line1"
 	echo "and by timetrans: preburst"

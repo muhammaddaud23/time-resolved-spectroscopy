@@ -1,4 +1,5 @@
 #! /bin/bash
+##This looping extract standard-1 burst spectra and store the count value to some files##
 while IFS= read -r line1; do
 	while IFS= read -r line2; do
 		echo "From file: $line1"
@@ -14,7 +15,7 @@ while IFS= read -r line1; do
 
 	done <"list_timetrans_burst"
 done <"list_standard1"
-
+##This looping extract one standard-1 background spectrum and store the count value to some files##
 while IFS= read -r line1; do 
 	echo "From file: $line1"
 	echo "and by timetrans: timetrans-preburst"
@@ -30,6 +31,6 @@ while IFS= read -r line1; do
 done <"list_standard1"
 
 echo "Standard-1 extraction done"
-
+##This code remove the by-product file
 rm NonVLE_output_dummy
 rm VLE_output_dummy

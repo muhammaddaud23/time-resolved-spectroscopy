@@ -9,4 +9,4 @@
 9. $bash extract-spectrum.sh
 10. Buat file column-deadtime
 11. $bash extract-standard1.sh
-12. python3 deadtime_correction.py
+12. python3 deadtime_correction.py, sesuaikan batas waktu ketika num_pcu_on seragam dengan waktu pengambilan background
