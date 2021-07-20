@@ -1,4 +1,4 @@
-# Automation-Trial
+# time-resolved-spectroscopy
 This repo shows codes to execute rxte burst data reduction automation
 
 The codes are built based on Event-mode spectral data reduction https://heasarc.gsfc.nasa.gov/docs/xte/recipes/pca_event_spectra.html.
