@@ -1,0 +1,12 @@
+1. Create bitfile through sefilter, choose only pcu 2 and all xenon layer if possible. Choose 'No' when the terminal ask whether to run seextrct or not, save all output and .bit file
+2. Fill file list_* with file name corresponding to the file you want to work with
+3. $ bash create-gti.sh
+4. $ bash create-monitor.sh
+5. Open monitor.ipynb to check the light curve from monitor.lc
+6. Determine the timing of the background based on your selection criteria
+7. Write the information from step 6. to file create_timing.py
+8. $ python3 create_timing.py
+9. $ bash extract-spectrum.sh
+10. $ bash extract-standard1.sh
+11. $ python3 deadtime_correction.py
+12. Please check if the num_pcu_on is the same during background and target observation
