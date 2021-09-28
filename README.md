@@ -6,4 +6,4 @@ The create response matrices step is not included here since i've got some issue
 The codes only work for 1 obs-id file in each running. But, there are some potential to upgrade this.
 The parameter which was set in the code is based on my needs. If you want to change the parameter, please read the code carefully first.
 
-Please note that the instruction 'tahapan' is still in bahasa
+For instruction on how to run the code, please read the procedure.txt
